@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		ACD1A2682059DABD00324193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1A2672059DABD00324193 /* AppDelegate.swift */; };
-		ACD1A26A2059DABD00324193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1A2692059DABD00324193 /* ViewController.swift */; };
+		ACD1A26A2059DABD00324193 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1A2692059DABD00324193 /* QuotesViewController.swift */; };
 		ACD1A26D2059DABD00324193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD1A26B2059DABD00324193 /* Main.storyboard */; };
 		ACD1A26F2059DABD00324193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD1A26E2059DABD00324193 /* Assets.xcassets */; };
 		ACD1A2722059DABD00324193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD1A2702059DABD00324193 /* LaunchScreen.storyboard */; };
+		ACD1A27A2059E24600324193 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1A2792059E24600324193 /* ConfigViewController.swift */; };
+		ACD1A27C2059E25500324193 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD1A27B2059E25500324193 /* SaveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACD1A2642059DABD00324193 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD1A2672059DABD00324193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACD1A2692059DABD00324193 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACD1A2692059DABD00324193 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		ACD1A26C2059DABD00324193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACD1A26E2059DABD00324193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD1A2712059DABD00324193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACD1A2732059DABD00324193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD1A2792059E24600324193 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		ACD1A27B2059E25500324193 /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				ACD1A2672059DABD00324193 /* AppDelegate.swift */,
-				ACD1A2692059DABD00324193 /* ViewController.swift */,
+				ACD1A2692059DABD00324193 /* QuotesViewController.swift */,
 				ACD1A26B2059DABD00324193 /* Main.storyboard */,
 				ACD1A26E2059DABD00324193 /* Assets.xcassets */,
 				ACD1A2702059DABD00324193 /* LaunchScreen.storyboard */,
 				ACD1A2732059DABD00324193 /* Info.plist */,
+				ACD1A2792059E24600324193 /* ConfigViewController.swift */,
+				ACD1A27B2059E25500324193 /* SaveViewController.swift */,
 			);
 			path = Pensamentos;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD1A26A2059DABD00324193 /* ViewController.swift in Sources */,
+				ACD1A26A2059DABD00324193 /* QuotesViewController.swift in Sources */,
+				ACD1A27C2059E25500324193 /* SaveViewController.swift in Sources */,
 				ACD1A2682059DABD00324193 /* AppDelegate.swift in Sources */,
+				ACD1A27A2059E24600324193 /* ConfigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
